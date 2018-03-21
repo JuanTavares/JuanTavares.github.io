@@ -1,3 +1,25 @@
-header {
-    background: url(img/wallpaper.jpg);
+#myHeader {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: table;
+}
+
+#myPic {
+    width: 175px;
+    height: auto;
+}
+
+figure {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main {
+    height: 900px;
+    background-color: #cec;
 }
