@@ -18,6 +18,9 @@ figure {
     display: table-cell;
     vertical-align: middle;
 }
+figure img, figure figcaption{
+    display: inline-block;
+}
 
 main {
     height: 900px;
