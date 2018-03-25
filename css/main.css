@@ -1,3 +1,7 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 #myHeader {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/wallpaper.jpg);
@@ -7,7 +11,6 @@
     background-attachment: fixed;
     color: #fff;
     display: table;
-    font-family: 'Raleway', sans-serif;
 }
 
 #header-wrapper {
@@ -61,6 +64,10 @@ nav ul li a {
     .navbar-brand {
         margin-left: inherit;
     }
+}
+
+.separation-border {
+    border: 2px solid cornflowerblue;
 }
 
 main {
