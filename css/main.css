@@ -86,3 +86,7 @@ main {
     max-width: 250px;
     margin: 25px auto 30px;
 }
+.bg-dark-grey {
+    background-color: #333;
+    height: 50px;
+}
