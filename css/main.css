@@ -89,6 +89,7 @@ main {
 .bg-dark-grey {
     background-color: #333;
     height: 50px;
+    align-self: center;
 }
 
 .jumbotron {
@@ -106,20 +107,4 @@ main {
 #projects p {
     font-size: 18px;
     line-height: 25px;
-}
-
-.card-body {
-    color: white;
-}
-
-.card-1 {
-    background-color: #FBB8B8;
-}
-
-.card-2 {
-    background-color: #FEC00F;
-}
-
-.card-3 {
-    background-color: #2C5871;
 }
