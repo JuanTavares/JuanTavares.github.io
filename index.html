@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Juan Tavares's Portfolio</title>
+        <title>Juan&nbsp;Tavares's Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -49,7 +49,7 @@
         <div class="separation-border"></div>
         <main class="container">
             <section id="about-me">
-                <h3 class="text-center mt-5 display-4"><strong>About me</strong></h3>
+                <h3 class="text-center pt-5 display-4"><strong>About me</strong></h3>
                 <hr class="separador rounded">
                 <div class="card-deck mt-5">
                     <div class="card">
@@ -81,25 +81,52 @@
                 <h3 class="text-center mt-5 display-4"><strong>Projects</strong></h3>
                 <hr class="separador rounded">
                 <div class="row mx-auto">
-                    <div class="col-xs-12 col-md-6 d-inline">
+                    <div class="col-xs-12 col-md-6 d-inline-block">
                         <a href="https://codepen.io/JuanTavares/full/WzbQyr/" target="blank">
                         <img src="img/myuu.png" alt="Tribute page thumbnail" class="img-fluid img-thumbnail"></a>
                     </div>
-                    <div class="jumbotron col-xs-12 col-md-6 d-inline">
+                    <div class="jumbotron col-xs-12 col-md-6 d-inline-block">
                         <h3 class="text-center"><u>Tribute Page to Myuuji</u></h3>
-                        <p class="text-center mt-5">A tribute page to <a href="http://thedarkpiano.com/">Myuuji</a>, there you can see his albums and get to know his music.</p>
+                        <p class="text-center mt-5">Tribute page to <a href="http://thedarkpiano.com/">Myuuji</a>, there you can see his albums and get to know his music.</p>
+                        <br>
+                        <p class="text-center">Technologies: </p>
+                        <div class="text-center">
+                            <div class="d-inline-block bg-danger text-white px-1 rounded">HTML</div>
+                            <div class="d-inline-block bg-secondary text-white px-1 rounded">CSS</div>
+                            <div class="d-inline-block bg-warning text-white px-1 rounded">JQuery</div>
+                            <div class="d-inline-block bg-success text-white px-1 rounded">Bootstrap</div>
+                        </div>
                     </div>
                 </div>
             </section>
             <hr>
-            <section id="contact">
+            <section id="contact" class="pb-3">
                 <h3 class="text-center mt-5 display-4"><strong>Get in touch</strong></h3>
                 <hr class="separador rounded">
+                <div id="form">
+                    <form class="col-xs-12 col-md-12" method="POST" action="https://formspree.io/juantavares2006@hotmail.com">
+                        <div class="form-group mx-auto">
+                            <label for="name">Your name</label>
+                            <input class="form-control" type="text" name="name" placeholder="Alan Turing" required>
+                        </div>
+                        <div class="form-group mx-auto">
+                            <label for="email">Your email</label>
+                            <input class="form-control" aria-describedby="emailHelp" type="email" name="email" placeholder="Alan_t@email.com" required>
+                        </div>
+                        <div class="form-group mx-auto">
+                            <label for="message">Your message</label>
+                            <textarea class="form-control" name="message" placeholder="Hi there! i'd like to talk to you." rows="6" required></textarea>
+                        </div>
+                        <div class="form-group mx-auto text-center">
+                            <button type="submit" class="btn btn-primary mt-2 mb-2">Let's Talk!</button>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
         <div class="separation-border"></div>
         <footer class="container-fluid bg-dark-grey">
-
+            <p class="text-white text-center">Copyright &copy; 2018 Juan Tavares</p>
         </footer>
     </body>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
