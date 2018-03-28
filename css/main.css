@@ -67,6 +67,9 @@ nav ul li a {
     .navbar-brand {
         margin-left: inherit;
     }
+    #myHeader {
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/wallpaperCel.jpg);
+    }
 }
 
 .separation-border {
