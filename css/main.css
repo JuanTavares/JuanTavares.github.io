@@ -100,8 +100,6 @@ main {
 .jumbotron {
     background: rgba(233, 236, 239, 0.5);
     box-sizing: border-box;
-    height: 200px;
-    margin-right: 0px;
     padding-top: 1.5%;
 }
 
@@ -112,4 +110,13 @@ main {
 #projects p {
     font-size: 18px;
     line-height: 25px;
+}
+
+.form-group {
+    max-width: 700px;
+    font-family: sans-serif;
+}
+
+#form {
+    box-sizing: border-box;
 }
