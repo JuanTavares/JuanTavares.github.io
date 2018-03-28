@@ -70,6 +70,10 @@ nav ul li a {
     #myHeader {
         background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/wallpaperCel.jpg);
     }
+    .card {
+        max-width: 80%;
+        min-width: 50%;
+    }
 }
 
 .separation-border {
@@ -124,9 +128,10 @@ main {
     box-sizing: border-box;
 }
 
-#icons a{
+#icons a {
     color: #333;
 }
-#icons a:hover{
-    color: rgb(21 , 170, 191);
+
+#icons a:hover {
+    color: rgb(21, 170, 191);
 }
