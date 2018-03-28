@@ -123,3 +123,10 @@ main {
 #form {
     box-sizing: border-box;
 }
+
+#icons a{
+    color: #333;
+}
+#icons a:hover{
+    color: rgb(21 , 170, 191);
+}
