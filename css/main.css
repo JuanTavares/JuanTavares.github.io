@@ -76,6 +76,15 @@ nav ul li a {
     }
 }
 
+@media (max-width: 576px) {
+    #myPic {
+        width: 110px;
+    }
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
 .separation-border {
     border: 2px solid cornflowerblue;
 }
