@@ -76,6 +76,10 @@ nav ul li a {
     }
 }
 
+@media (max-width: 576px) {
+    
+}
+
 .separation-border {
     border: 2px solid cornflowerblue;
 }
