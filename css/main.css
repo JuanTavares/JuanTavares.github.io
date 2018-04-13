@@ -80,6 +80,9 @@ nav ul li a {
     #myPic {
         width: 110px;
     }
+    .display-4 {
+        font-size: 3rem;
+    }
 }
 
 .separation-border {
